@@ -2,10 +2,8 @@
 *.pyo
 /*.patch
 /.repo/
-/build/**        # Ignore everything inside the build folder
-!build/          # Include the build folder itself
-!build/conf/     # Include the conf folder within build
-!build/conf/**   # Include all files and subfolders inside build/conf
+/build*/
+!build/conf/
 pyshtables.py
 pstage/
 scripts/oe-git-proxy-socks
@@ -40,4 +38,3 @@ downloads/
 sstate-cache/
 toaster.sqlite
 .vscode/
-
